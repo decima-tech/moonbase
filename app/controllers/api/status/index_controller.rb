@@ -1,6 +1,6 @@
 module Api
   module Status
-    class IndexController < Api::Controller
+    class IndexController < ActionController::API
       def index
         render json: { status: :ok }
       end
