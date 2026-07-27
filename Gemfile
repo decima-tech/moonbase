@@ -8,7 +8,7 @@ source "https://rubygems.org" do
   gem "bootsnap", require: false
   gem "aws-sdk-rails"
   gem "aws-sdk-s3"
-  gem "connection_pool", "~> 2.5"
+  gem "connection_pool", "~> 3.0"
   gem "csv"
   gem "dalli"
   gem "haml"
