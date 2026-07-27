@@ -22,7 +22,7 @@ source "https://rubygems.org" do
   gem "sentry-rails"
   gem "sentry-ruby"
   gem "sidekiq", "~> 7.1.2"
-  gem "sidekiq-cron", "~> 1.10.1"
+  gem "sidekiq-cron", "~> 2.4.0"
   gem "sidekiq-status"
   gem "sidekiq-unique-jobs"
 end
