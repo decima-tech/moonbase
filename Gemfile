@@ -15,7 +15,7 @@ source "https://rubygems.org" do
   gem "httparty"
   gem "ostruct"
   gem "pg", "~> 1.1"
-  gem "puma", "~> 6.0"
+  gem "puma", "~> 8.0"
   gem "rack-cors", "~> 2.0.1"
   gem "rails", "~> 8.0.0"
   gem "roo"
