@@ -10,6 +10,15 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore vendored gems (bundle install --path vendor/bundle).
+/vendor/bundle
+
+# Ignore SimpleCov coverage reports.
+/coverage/
+
+# Ignore IDE / editor directories.
+/.idea/
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
