@@ -16,7 +16,7 @@ source "https://rubygems.org" do
   gem "ostruct"
   gem "pg", "~> 1.1"
   gem "puma", "~> 6.0"
-  gem "rack-cors", "~> 2.0.1"
+  gem "rack-cors", "~> 3.0.0"
   gem "rails", "~> 8.0.0"
   gem "roo"
   gem "sentry-rails"
