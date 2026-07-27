@@ -17,7 +17,7 @@ source "https://rubygems.org" do
   gem "pg", "~> 1.1"
   gem "puma", "~> 6.0"
   gem "rack-cors", "~> 2.0.1"
-  gem "rails", "~> 8.0.0"
+  gem "rails", "~> 8.1.3"
   gem "roo"
   gem "sentry-rails"
   gem "sentry-ruby"
