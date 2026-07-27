@@ -9,7 +9,7 @@ module Lyticaa
 
         def exchange_rates
           if error? response.code
-            response.code diagnostic.log_error "failed to get exchange rates", error_code: response.code
+            diagnostic.log_error "failed to get exchange rates", error_code: response.code
             return {}
           end
 
