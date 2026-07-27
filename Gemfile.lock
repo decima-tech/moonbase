@@ -384,11 +384,12 @@ GEM
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
       logger
-    sidekiq (7.1.6)
-      concurrent-ruby (< 2)
-      connection_pool (>= 2.3.0)
-      rack (>= 2.2.4)
-      redis-client (>= 0.14.0)
+    sidekiq (8.0.10)
+      connection_pool (>= 2.5.0)
+      json (>= 2.9.0)
+      logger (>= 1.6.2)
+      rack (>= 3.1.0)
+      redis-client (>= 0.23.2)
     sidekiq-cron (1.10.1)
       fugit (~> 1.8)
       globalid (>= 1.0.1)
@@ -481,7 +482,7 @@ DEPENDENCIES
   rubocop-rails
   sentry-rails!
   sentry-ruby!
-  sidekiq (~> 7.1.2)!
+  sidekiq (~> 8.0.10)!
   sidekiq-cron (~> 1.10.1)!
   sidekiq-status!
   sidekiq-unique-jobs!
@@ -642,7 +643,7 @@ CHECKSUMS
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   sentry-rails (6.6.2) sha256=cb49aa43e6eb235d162d365c671b3fd24b7f9037df59b4a49af5af60868ab1ed
   sentry-ruby (6.6.2) sha256=a64aaf757d10058598fe5871de925b2a5a3d78273feb9bca23fff843accc6cd6
-  sidekiq (7.1.6) sha256=7859da66d5bcef3c22bea2c3091d08c866890168e003f5bf4dea197dc37843a2
+  sidekiq (8.0.10) sha256=37ccd8da8d46f6779b8655cb30c1bfcb0decd57e890ff56d8b8252a5d9a84cd6
   sidekiq-cron (1.10.1) sha256=81397af7c425d29d8dda91e59494edc28e096344b68defe052892796987cc19e
   sidekiq-status (4.0.0) sha256=3f45627efaa54c7f3e3b62dda358425af07fd7c596d6ab50d56ef3e45cbcdb67
   sidekiq-unique-jobs (8.1.0) sha256=6a7eaa61ac408197a542350df905687b506acae2f485da03b11d28b1c367dc35
