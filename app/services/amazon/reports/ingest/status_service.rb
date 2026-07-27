@@ -30,7 +30,7 @@ module Amazon
         end
 
         def processing
-          StatusJob.perform_at 1.minute, user_id, job_list
+          StatusJob.perform_in 1.minute, user_id, job_list
         end
 
         def complete
