@@ -1,10 +1,10 @@
-require:
+plugins:
   - rubocop-packaging
   - rubocop-performance
   - rubocop-rails
 
 AllCops:
-  TargetRubyVersion: 3.2.2
+  TargetRubyVersion: 3.4
   DisabledByDefault: true
   Exclude:
     - 'db/schema.rb'

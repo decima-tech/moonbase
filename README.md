@@ -4,13 +4,13 @@
 
 Moonbase is an ETL API for Amazon marketplace reports. Moonbase will process user reports and generate a normalised view of their Amazon sales performance.
 
-Moonbase is a fairly straightforward Rails 7 application that makes use of Sidekiq, in order to perform much of the heavy lifting asynchronously.
+Moonbase is a fairly straightforward Rails 8 application that makes use of Sidekiq, in order to perform much of the heavy lifting asynchronously.
 
 ## Prerequisites
 
 Moonbase has been designed to run on [Heroku](https://heroku.com), however it can be used on any of the major cloud providers and even bare metal.
 
-If you are new to Ruby/Rails, see [here](https://www.ruby-lang.org/en/documentation/installation) and [here](https://guides.rubyonrails.org/v6.0/getting_started.html).
+If you are new to Ruby/Rails, see [here](https://www.ruby-lang.org/en/documentation/installation) and [here](https://guides.rubyonrails.org/getting_started.html).
 
 The following services are required:
 
@@ -183,6 +183,7 @@ RAILS_ENV=development
 RAILS_MASTER_KEY=
 REPORTS_BUCKET=
 SENTRY_DSN=
+REDIS_URL=
 SIDEKIQ_ADMIN_PASSWORD=
 ```
 
